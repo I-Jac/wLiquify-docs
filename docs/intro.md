@@ -35,7 +35,7 @@ The wLiquify ecosystem is composed of several key components working in concert:
 
 ## Dive Deeper
 
-*   **New to wLiquify?** Start with our [User Guides](./category/user-guides) to learn how to use the dApp.
-*   **Want to understand the mechanics?** Explore the [Developer Documentation](./category/developer-documentation) for a technical deep dive into our on-chain programs and off-chain services.
+*   **New to wLiquify?** Start with our [User Guides](./user-guides/dapp-guide) to learn how to use the dApp.
+*   **Want to understand the mechanics?** Explore the [Developer Documentation](./developer-docs/overview) for a technical deep dive into our on-chain programs and off-chain services.
 
 We are excited to have you explore wLiquify. Our commitment is to foster trust and clarity, helping you understand not just *how* to use the platform, but *why* it's designed the way it is, and the benefits it offers. 
