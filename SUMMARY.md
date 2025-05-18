@@ -2,13 +2,15 @@
 
 * [Welcome to wLiquify](README.md)
 
-* [Getting Started](getting-started/README.md)
+Getting Started
+  * [Overview](getting-started/README.md)
   * [Using the wLiquify dApp](getting-started/dapp-guide.md)
   * [Wallet Guide](getting-started/wallet-guide.md)
   * [Best Practices](getting-started/best-practices.md)
   * [Understanding Key Concepts](getting-started/key-concepts.md)
 
-* [Protocol Deep Dive](protocol/README.md)
+Protocol Deep Dive
+  * [Overview](protocol/README.md)
   * [Ecosystem Overview](protocol/ecosystem-overview.md)
   * [Core: Liquidity Pools](protocol/liquidity-pools.md)
   * [Core: Oracles & Data Feeds](protocol/oracles.md)
@@ -18,20 +20,20 @@
   * [Fees & Tokenomics](protocol/fees-tokenomics.md)
   * [Governance](protocol/Governance.md)
 
-* [Developer Hub](developers/README.md)
+Developer Hub
+  * [Overview](developers/README.md)
   * [Smart Contract Architecture](developers/architecture.md)
-  * [On-Chain Programs](developers/on-chain-programs/README.md)
-    * [Liquidity Pool Program Details](developers/on-chain-programs/pool-program.md)
-    * [Oracle Program Details](developers/on-chain-programs/oracle-program.md)
-  * [Off-Chain Services](developers/off-chain-services/README.md)
-    * [Oracle Feeder Service](developers/off-chain-services/oracle-feeder.md)
-    * [Pool Maintainer Service](developers/off-chain-services/pool-maintainer.md)
+  * [Liquidity Pool Program Details](developers/on-chain-programs/pool-program.md)
+  * [Oracle Program Details](developers/on-chain-programs/oracle-program.md)
+  * [Oracle Feeder Service](developers/off-chain-services/oracle-feeder.md)
+  * [Pool Maintainer Service](developers/off-chain-services/pool-maintainer.md)
   * [Integration Guides](developers/integration-guides/README.md)
   * [Code Examples](developers/code-examples/README.md)
   * [Addresses & Deployments](developers/addresses.md)
   * [SDKs & APIs (Future)](developers/sdk-api/README.md)
 
-* [Community & Resources](resources/README.md)
+Community & Resources
+  * [Overview](resources/README.md)
   * [Technical Whitepaper](resources/Technical Whitepaper.md)
   * [FAQ](resources/faq.md)
   * [Glossary](resources/glossary.md)
