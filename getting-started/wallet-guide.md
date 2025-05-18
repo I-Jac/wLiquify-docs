@@ -64,6 +64,27 @@ The wLiquify dApp supports several popular Solana wallets. Here are our recommen
   - Fees
   - Price impact
   - Slippage tolerance
+  - Network (source and destination chains)
+  - Bridge contract addresses
+
+### Managing Cross-Chain Tokens
+1. **Source Chain Tokens**
+   - Ensure sufficient balance for gas fees
+   - Verify token contract addresses
+   - Check token decimals
+   - Monitor minimum bridge amounts
+
+2. **Wormhole Wrapped Tokens**
+   - Identify correct wrapped token address
+   - Verify token metadata
+   - Check bridge status
+   - Monitor bridge fees
+
+3. **Solana Native Tokens**
+   - Maintain SOL for transaction fees
+   - Check token account existence
+   - Verify token program
+   - Monitor rent-exempt balance
 
 ### Security Best Practices
 1. **Never share your seed phrase**
@@ -80,16 +101,27 @@ The wLiquify dApp supports several popular Solana wallets. Here are our recommen
    - Ensure extension is installed
    - Check if extension is enabled
    - Try refreshing the page
+   - Verify network compatibility
 
 2. **Transaction Failures**
    - Check SOL balance for fees
    - Verify network connection
    - Ensure sufficient token balance
+   - Check bridge status
+   - Verify token compatibility
 
 3. **Connection Issues**
    - Clear browser cache
    - Disconnect and reconnect wallet
    - Try different RPC endpoint
+   - Check network congestion
+
+4. **Bridge Issues**
+   - Verify source chain status
+   - Check destination chain status
+   - Monitor bridge queue
+   - Verify token whitelist status
+   - Check minimum bridge amounts
 
 ### Getting Help
 - Check our [FAQ](../resources/faq.md)

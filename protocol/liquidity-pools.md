@@ -65,6 +65,7 @@ Where:
    - Token price verification via Pyth
    - Value calculation
    - Fee determination
+   - Deposit bonus calculation
    - wLQI minting
 
 2. **Considerations**
@@ -72,6 +73,33 @@ Where:
    - Market impact
    - Fee structure
    - Price feed reliability
+   - Bridging costs
+   - Deposit bonus eligibility
+
+### Deposit Bonus Mechanism
+1. **Purpose**
+   - Incentivize cross-chain liquidity
+   - Cover bridging and LP costs
+   - Grow Solana's DeFi TVL
+   - Improve token availability
+
+2. **Implementation**
+   - Additional bonus on deposits
+   - Exceeds typical bridging costs
+   - Offset by pool fees
+   - Maintains pool balance
+
+3. **Benefits**
+   - Higher than bridging + LP costs
+   - Encourages ecosystem growth
+   - Improves token availability
+   - Increases Solana TVL
+
+4. **Considerations**
+   - Token weight in pool
+   - Current market conditions
+   - Bridging costs
+   - Pool health
 
 ### Withdrawals
 1. **Process**
@@ -94,12 +122,14 @@ Where:
    - Dynamic fee based on weight deviation
    - Oracle-based adjustments
    - Market impact consideration
+   - Deposit bonus offset
 
 2. **Implementation**
    - Fee affects wLQI mint/burn amount
    - Maintains pool balance
    - Incentivizes optimal weights
    - Protects pool value
+   - Funds deposit bonuses
 
 ## Security Features
 

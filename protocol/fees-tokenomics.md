@@ -4,6 +4,8 @@
 
 ### Base Fees
 - **Swaps**: Uses Jupiter Aggregator Swap Terminal for optimal routing and pricing
+  - No additional wLiquify fees on swaps
+  - Standard Jupiter and network fees apply
 - **Pool Deposits**: 0.1% base fee
 - **Pool Withdrawals**: Dynamic fee based on token dominance
 
@@ -121,6 +123,4 @@ This dependency is a critical component of the system, ensuring:
    - Provide better trading experience
    - Grow Solana TVL
 
-*(Note: This documentation will be updated as the protocol evolves and new features are implemented.)*
-
-*(Content to be added: Swap fees, deposit/withdrawal fees (if any), how fees are distributed, overall token supply and distribution if you have a governance token beyond wLQI.)* 
+*(Note: This documentation will be updated as the protocol evolves and new features are implemented.)* 

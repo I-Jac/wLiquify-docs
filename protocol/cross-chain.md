@@ -57,24 +57,52 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
 
 ## Future Automation Plans
 
-### Planned Features
-1. **Automated Bridging**
-   - Integrated frontend routing
-   - Reduced manual steps
-   - Simplified user experience
-   - Better cost optimization
+### Near-Term Improvements
+1. **Integrated Token Verification**
+   - Built-in token origin lookup
+   - Direct access to Portal tools
+   - Source chain information display
+   - Token address verification
 
-2. **Enhanced Integration**
-   - Direct token bridging
-   - Automated route selection
-   - Real-time fee comparison
+2. **Streamlined Process**
+   - Token selection in dApp
+   - Automatic source chain detection
+   - Clear bridging instructions
+   - Deposit guidance
+
+3. **User Benefits**
+   - Simplified token discovery
+   - Clear process guidance
+   - Better cost visibility
+   - Improved security
+   - Faster process completion
+
+4. **Technical Integration**
+   - Portal API integration
+   - Token verification tools
+   - Process guidance
    - Status tracking
 
-3. **User Experience**
-   - One-click bridging
-   - Automated token purchases
-   - Integrated deposit process
+### Enhanced User Experience
+1. **Simplified Interface**
+   - Integrated token lookup
+   - Clear bridging steps
+   - Process guidance
    - Better error handling
+   - Progress tracking
+
+2. **Cost Optimization**
+   - Fee visibility
+   - Cost estimation
+   - Gas optimization
+   - Deposit bonus calculation
+
+3. **Security Features**
+   - Integrated security checks
+   - Transaction verification
+   - Address validation
+   - Error prevention
+   - Status monitoring
 
 ## Security Measures
 
@@ -148,5 +176,64 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
    - Guardian verification
    - Cross-chain transfer
    - Token minting/burning
+
+## Token Verification and Bridging
+
+### Portal Tools
+1. **Token Origin Verifier**
+   - Visit [Portal Token Origin Verifier](https://portalbridge.com/legacy-tools/#/token-origin-verifier)
+   - Use to find source chain and token address
+   - Essential for correct token acquisition
+   - Helps prevent bridging errors
+
+2. **Portal Transfer**
+   - Visit [Portal Transfer](https://portalbridge.com/legacy-tools/#/transfer)
+   - Used for actual token bridging
+   - Supports Wormhole NTT transfers
+   - Provides transaction status
+
+### Bridging Process
+1. **Token Verification**
+   - Copy Solana token address from pool
+   - Use Portal Token Origin Verifier
+   - Note source chain and token address
+   - Verify token compatibility
+
+2. **Source Chain Access**
+   - Bridge to source chain using DeBridge
+   - Purchase source token
+   - Ensure sufficient gas fees
+   - Verify token address
+
+3. **Solana Transfer**
+   - Use Portal Transfer interface
+   - Select correct chains and token
+   - Follow bridging process
+   - Monitor transaction status
+
+4. **Pool Integration**
+   - Receive Wormhole-wrapped token
+   - Verify token in wallet
+   - Deposit into wLiquify pool
+   - Receive deposit bonus
+
+### Best Practices
+1. **Verification**
+   - Always verify token addresses
+   - Check source chain details
+   - Confirm Wormhole support
+   - Verify pool whitelist
+
+2. **Transaction Management**
+   - Keep extra gas fees
+   - Monitor bridge status
+   - Save transaction hashes
+   - Track transfer progress
+
+3. **Security**
+   - Use official interfaces
+   - Verify contract addresses
+   - Check transaction details
+   - Monitor confirmations
 
 *(Note: This documentation will be updated as cross-chain integration evolves and automation features are implemented.)* 

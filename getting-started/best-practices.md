@@ -6,6 +6,7 @@ Tips for using wLiquify safely and effectively.
 
 Interacting with any DeFi platform requires caution and awareness. Here are some best practices to follow when using the wLiquify dApp:
 
+### General Security
 -   **Verify URLs**: Always double-check that you are on the official wLiquify dApp website before connecting your wallet or signing any transactions. Bookmark the correct URL to avoid phishing sites.
 
 -   **Approve Transactions Carefully**: Before approving any transaction in your wallet:
@@ -21,11 +22,86 @@ Interacting with any DeFi platform requires caution and awareness. Here are some
     -   Beware of phishing scams and unsolicited messages asking for your wallet details or seed phrase.
     -   Consider using a hardware wallet for an extra layer of security, especially for significant amounts.
 
--   **Token Approvals (if applicable)**: While many Solana dApps, including wLiquify for core pool interactions, use direct transfers or temporary authority rather than indefinite token approvals, always be mindful of any transaction that asks for broad permissions over your tokens. If such a feature were ever introduced, understand what you are approving and for how long.
+### Cross-Chain Bridging
+-   **Verify Token Compatibility**:
+    -   Ensure the token you want to bridge has a Wormhole NTT wrapped version on Solana
+    -   Check that the token is whitelisted in the wLiquify pool before bridging
+    -   Verify the correct token contract addresses on both chains
+    -   Use Portal Token Origin Verifier to find source chain details
+    -   Double-check token addresses before bridging
 
--   **Stay Informed**: Follow official wLiquify announcements for any security updates or important information.
+-   **Manage Gas Costs**:
+    -   Monitor gas prices on source chains before bridging
+    -   Consider network congestion when planning transactions
+    -   Keep extra gas for potential failed transactions
+    -   Account for typical bridging costs (0.5-1.5%)
+    -   Include DeBridge transfer fees in calculations
 
--   **Understand the Risks**: DeFi and liquidity provision involve inherent risks, including smart contract vulnerabilities and impermanent loss. Ensure you understand these risks before participating.
+-   **Bridge Security**:
+    -   Use official Wormhole NTT interfaces
+    -   Verify transaction confirmations on both chains
+    -   Keep transaction hashes for reference
+    -   Monitor bridge status during high network activity
+    -   Use Portal Transfer for Wormhole NTT operations
+    -   Verify token origins through Portal Token Origin Verifier
+
+-   **Bridging Process**:
+    -   Always verify token addresses before starting
+    -   Follow the complete bridging process:
+        1. Find token in wLiquify pool
+        2. Use Portal Token Origin Verifier
+        3. Bridge to source chain via DeBridge
+        4. Purchase source token
+        5. Use Portal Transfer to bridge to Solana
+        6. Deposit into wLiquify pool
+    -   Keep track of all transaction hashes
+    -   Monitor each step of the process
+    -   Verify token receipt before depositing
+
+### Liquidity Management
+-   **Understanding Pool Dynamics**:
+    -   Monitor token weights and target percentages
+    -   Consider deposit bonuses for underweight tokens
+    -   Be aware of withdrawal fees for overweight tokens
+    -   Track impermanent loss potential
+
+-   **Managing wLQI Tokens**:
+    -   Keep track of your wLQI balance and value
+    -   Monitor pool TVL and token weights
+    -   Consider the impact of fees on your position
+    -   Plan withdrawals based on token weights
+
+-   **Risk Management**:
+    -   Diversify across multiple tokens
+    -   Monitor market conditions
+    -   Set clear entry and exit strategies
+    -   Keep emergency funds for gas fees
+
+### Transaction Management
+-   **Network Settings**:
+    -   Ensure wallet and dApp are on the same network
+    -   Use appropriate priority fees for timely processing
+    -   Monitor transaction status in your wallet
+    -   Keep transaction hashes for reference
+
+-   **Error Handling**:
+    -   Save transaction details before signing
+    -   Note error messages for troubleshooting
+    -   Check network status during issues
+    -   Contact support with transaction hashes
+
+### Staying Informed
+-   **Official Channels**:
+    -   Follow wLiquify announcements
+    -   Monitor protocol updates
+    -   Join community discussions
+    -   Read documentation updates
+
+-   **Market Awareness**:
+    -   Monitor token prices and weights
+    -   Track pool TVL changes
+    -   Stay informed about network conditions
+    -   Follow relevant market news
 
 *(Disclaimer: This information is for guidance purposes. Cryptocurrency investments and DeFi interactions carry inherent risks. Always do your own research (DYOR) and make informed decisions.)*
 
