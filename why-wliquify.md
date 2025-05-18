@@ -9,6 +9,7 @@ wLiquify solves two critical problems in the DeFi ecosystem:
    - Leverages Solana's high performance and low fees
    - Provides efficient cross-chain liquidity
    - Creates a unified trading experience
+   - Increases Solana's DeFi TVL through incentivized cross-chain deposits
 
 2. **Decentralized Market Index**
    - First truly decentralized crypto index
@@ -43,6 +44,31 @@ wLiquify solves two critical problems in the DeFi ecosystem:
    - Binance Peg support
    - Optimized bridging
    - Reduced transaction costs
+
+3. **Incentivized Liquidity**
+   - Deposit bonus for cross-chain transfers
+   - Covers bridging and LP costs
+   - Encourages top 30 token migration
+   - Improves Solana's token ecosystem
+
+### Deposit Bonus Mechanism
+1. **Purpose**
+   - Incentivize cross-chain liquidity
+   - Attract top 30 tokens to Solana
+   - Cover bridging and LP costs
+   - Improve user experience
+
+2. **Process**
+   - Users bridge tokens through Wormhole NTT
+   - Receive whitelisted wrapped tokens
+   - Deposit into wLiquify pool
+   - Earn bonus rewards
+
+3. **Benefits**
+   - Higher than bridging + LP costs
+   - Encourages ecosystem growth
+   - Improves token availability
+   - Increases Solana TVL
 
 ## Problem 2: Centralized Index Management
 
@@ -86,6 +112,7 @@ wLiquify solves two critical problems in the DeFi ecosystem:
    - Strong developer community
    - Robust infrastructure
    - Future scalability
+   - Increased TVL through cross-chain incentives
 
 ### Protocol Design
 1. **Efficiency**
@@ -108,12 +135,14 @@ wLiquify solves two critical problems in the DeFi ecosystem:
    - Parameter optimization
    - Feature proposals
    - Community control
+   - Bonus rate adjustments
 
 2. **Integration**
    - More token support
    - Enhanced cross-chain
    - Better price feeds
    - Improved efficiency
+   - Additional bridge support
 
 ### Market Impact
 1. **DeFi Growth**
@@ -121,12 +150,14 @@ wLiquify solves two critical problems in the DeFi ecosystem:
    - Better token accessibility
    - Lower trading costs
    - Improved user experience
+   - Higher TVL through incentives
 
 2. **Index Development**
    - More decentralized indexes
    - Better market efficiency
    - Reduced centralization
    - Community-driven evolution
+   - Enhanced cross-chain liquidity
 
 ## Getting Started
 

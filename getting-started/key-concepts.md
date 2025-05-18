@@ -12,6 +12,50 @@ In wLiquify:
 - Trading is automated through smart contracts
 - No need for traditional market makers or order books
 
+## Cross-Chain Bridging
+
+wLiquify enables trading of top cryptocurrencies on Solana through cross-chain bridging:
+
+1. **Current Process**
+   - Users manually bridge assets to source chain
+   - Buy source token on source chain
+   - Bridge to Solana using Wormhole NTT
+   - Deposit Wormhole-wrapped tokens into wLiquify pool
+
+2. **Wormhole NTT**
+   - Public bridging protocol used by wLiquify
+   - Enables secure cross-chain token transfers
+   - Creates wrapped versions of tokens on Solana
+   - Maintains token value across chains
+
+3. **Future Automation**
+   - Planned integration for automated bridging
+   - Simplified user experience
+   - Reduced manual steps
+   - Integrated frontend routing
+
+## Deposit Bonus Mechanism
+
+wLiquify incentivizes cross-chain liquidity through a deposit bonus system:
+
+1. **Purpose**
+   - Encourage users to bring liquidity to Solana
+   - Cover bridging and LP costs
+   - Grow Solana's DeFi TVL
+   - Improve token availability
+
+2. **How It Works**
+   - Users bridge tokens to Solana
+   - Deposit into wLiquify pool
+   - Receive bonus rewards
+   - Bonus offsets bridging costs
+
+3. **Benefits**
+   - Higher than bridging + LP costs
+   - Encourages ecosystem growth
+   - Improves token availability
+   - Increases Solana TVL
+
 ## Liquidity Provision
 
 Liquidity provision is the process of depositing assets into a liquidity pool to enable trading. In return, providers receive LP (Liquidity Provider) tokens that represent their share of the pool.
@@ -80,4 +124,4 @@ wLiquify uses oracles to:
 
 This integration helps maintain the pool's accuracy and reliability while enabling automated operations.
 
-*(Content to be added: Explain core ideas like AMMs, liquidity provision, impermanent loss if relevant, wLQI LP tokens, etc. in simple terms.)* 
+*(Note: This documentation will be updated as new features are added to the protocol, including automated cross-chain routing.)* 

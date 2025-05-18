@@ -2,7 +2,30 @@
 
 ## Overview
 
-wLiquify enables trading of top cryptocurrencies on Solana through cross-chain integration, primarily using Wormhole's Native Token Transfer (NTT) system and Binance Peg as a secondary solution. This integration allows users to access major tokens from other chains directly on Solana.
+wLiquify enables trading of top cryptocurrencies on Solana through cross-chain integration, primarily using Wormhole's Native Token Transfer (NTT) system. This integration allows users to access major tokens from other chains directly on Solana, though currently requires manual bridging steps.
+
+## Current Manual Process
+
+### Step-by-Step Bridging
+1. **Bridge to Source Chain**
+   - Use a bridge to transfer assets to the source chain
+   - Ensure sufficient gas for source chain transactions
+   - Verify token compatibility with Wormhole NTT
+
+2. **Buy Source Token**
+   - Purchase the desired token on the source chain
+   - Verify token has Wormhole NTT wrapped version on Solana
+   - Ensure sufficient balance for bridging
+
+3. **Bridge to Solana**
+   - Use Wormhole NTT to bridge token to Solana
+   - Receive Wormhole-wrapped version on Solana
+   - Verify token is whitelisted in wLiquify pool
+
+4. **Deposit to Pool**
+   - Deposit Wormhole-wrapped token into wLiquify pool
+   - Receive deposit bonus to offset bridging costs
+   - Mint wLQI tokens representing pool share
 
 ## Wormhole NTT Integration
 
@@ -32,20 +55,26 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
    - Source chain token unlock
    - User receipt
 
-## Binance Peg Integration
+## Future Automation Plans
 
-### Secondary Solution
-1. **Use Cases**
-   - When direct NTT not available
-   - BSC token support
-   - Additional liquidity
-   - Fallback mechanism
+### Planned Features
+1. **Automated Bridging**
+   - Integrated frontend routing
+   - Reduced manual steps
+   - Simplified user experience
+   - Better cost optimization
 
-2. **Token Flow**
-   - BSC token lock
-   - Binance Peg minting
-   - Wormhole transfer
-   - Solana integration
+2. **Enhanced Integration**
+   - Direct token bridging
+   - Automated route selection
+   - Real-time fee comparison
+   - Status tracking
+
+3. **User Experience**
+   - One-click bridging
+   - Automated token purchases
+   - Integrated deposit process
+   - Better error handling
 
 ## Security Measures
 
@@ -62,19 +91,6 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
    - Supply verification
    - Emergency procedures
 
-### Binance Peg Security
-1. **Verification**
-   - Peg token validation
-   - Supply checks
-   - Reserve verification
-   - Emergency controls
-
-2. **Integration**
-   - Secure bridging
-   - Token verification
-   - Supply management
-   - Risk controls
-
 ## Price Discovery
 
 ### Cross-Chain Pricing
@@ -90,42 +106,14 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
    - Oracle validation
    - Market impact
 
-## User Experience
-
-### Token Access
-1. **Deposit Options**
-   - Direct NTT transfer
-   - Binance Peg route
-   - Fee comparison
-   - Best route selection
-
-2. **Withdrawal Options**
-   - Direct NTT return
-   - Binance Peg return
-   - Fee consideration
-   - Route optimization
-
-### Transaction Flow
-1. **Deposit**
-   - Source chain transaction
-   - Bridge confirmation
-   - Solana receipt
-   - Pool integration
-
-2. **Withdrawal**
-   - Pool exit
-   - Bridge initiation
-   - Source chain receipt
-   - Token delivery
-
 ## Best Practices
 
 ### For Users
-1. **Route Selection**
-   - Compare fees
-   - Check availability
-   - Consider timing
-   - Monitor status
+1. **Current Process**
+   - Follow manual bridging steps
+   - Verify token compatibility
+   - Check bridging costs
+   - Monitor transaction status
 
 2. **Security**
    - Verify addresses
@@ -136,30 +124,15 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
 ### For Developers
 1. **Integration**
    - Wormhole SDK usage
-   - Binance Peg handling
    - Error management
    - Status tracking
+   - Future automation prep
 
 2. **Testing**
    - Cross-chain flows
    - Error scenarios
    - Security measures
    - Edge cases
-
-## Future Developments
-
-### Planned Features
-1. **Enhanced Integration**
-   - More chain support
-   - Better routing
-   - Improved security
-   - Faster transfers
-
-2. **User Experience**
-   - Better route selection
-   - Fee optimization
-   - Status tracking
-   - Error handling
 
 ## Technical Details
 
@@ -176,17 +149,4 @@ wLiquify enables trading of top cryptocurrencies on Solana through cross-chain i
    - Cross-chain transfer
    - Token minting/burning
 
-### Binance Peg Integration
-1. **Token Flow**
-   - Peg token creation
-   - Bridge transfer
-   - Solana integration
-   - Supply management
-
-2. **Security**
-   - Reserve verification
-   - Supply checks
-   - Emergency controls
-   - Risk management
-
-*(Note: This documentation will be updated as cross-chain integration evolves and new features are implemented.)* 
+*(Note: This documentation will be updated as cross-chain integration evolves and automation features are implemented.)* 
