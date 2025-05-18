@@ -2,12 +2,16 @@
 
 * [Welcome to wLiquify](README.md)
 
+---
+
 Getting Started
   * [Overview](getting-started/README.md)
   * [Using the wLiquify dApp](getting-started/dapp-guide.md)
   * [Wallet Guide](getting-started/wallet-guide.md)
   * [Best Practices](getting-started/best-practices.md)
   * [Understanding Key Concepts](getting-started/key-concepts.md)
+
+---
 
 Protocol Deep Dive
   * [Overview](protocol/README.md)
@@ -20,6 +24,8 @@ Protocol Deep Dive
   * [Fees & Tokenomics](protocol/fees-tokenomics.md)
   * [Governance](protocol/Governance.md)
 
+---
+
 Developer Hub
   * [Overview](developers/README.md)
   * [Smart Contract Architecture](developers/architecture.md)
@@ -31,6 +37,8 @@ Developer Hub
   * [Code Examples](developers/code-examples/README.md)
   * [Addresses & Deployments](developers/addresses.md)
   * [SDKs & APIs (Future)](developers/sdk-api/README.md)
+
+---
 
 Community & Resources
   * [Overview](resources/README.md)
