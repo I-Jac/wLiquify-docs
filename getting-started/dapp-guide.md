@@ -18,34 +18,7 @@ This dApp allows you to:
 
 Before you can use most features of the dApp, you'll need to connect a Solana wallet.
 
-**Supported Wallets:**
-The dApp supports a range of popular Solana wallets, including:
-- Phantom
-- Solflare
-- Coinbase Wallet
-- Trust Wallet
-- Ledger
-
-**How to Connect:**
-1.  Locate the **"Select Wallet"** button, typically found in the header of the application.
-2.  Clicking this button will open a modal displaying a list of supported wallets.
-3.  Choose your preferred wallet from the list.
-4.  Approve the connection request from within your wallet application.
-
-**Wallet Not Detected?**
-If you've selected a wallet but its browser extension is not installed or active, the button might indicate "(Not Detected)". In this case, a small dropdown menu may appear, offering options to:
-- **Download the wallet extension**: This will direct you to the wallet's official download page.
-- **Change Wallet**: Allows you to select a different wallet.
-
-**Wallet Connected - Profile Panel:**
-Once connected, the wallet button will display your truncated wallet address (e.g., `ABCD...WXYZ`) and the icon of your connected wallet. Clicking this button opens the **Wallet Profile Panel**, which provides:
-- Your full wallet address and a button to copy it.
-- An option to view your address on your preferred blockchain explorer.
-- Your total portfolio value (USD estimate).
-- A detailed breakdown of your token balances, including your wLQI tokens and other whitelisted tokens held in your wallet.
-- Buttons to:
-    - **Change Wallet**: Opens the wallet selection modal again.
-    - **Disconnect**: Logs you out of the dApp.
+For detailed instructions on supported wallets, how to connect, and managing your wallet connection, please refer to our [Wallet Guide](./wallet-guide.md).
 
 ## 3. Core Features
 
@@ -185,9 +158,6 @@ You can customize your dApp experience through the Settings modal.
 
 ## 6. Security & Best Practices
 
-- **Verify URLs**: Always ensure you are on the official wLiquify dApp website.
-- **Approve Transactions Carefully**: Review all transaction details in your wallet before approving. Understand what actions you are authorizing.
-- **Manage RPC Endpoints**: While custom RPCs can be useful, ensure they are trusted and reliable.
-- **Token Approvals (if applicable)**: Be mindful of token approvals if the dApp were to use them (though typically Solana dApps use direct transfers or temporary authority).
+Using any DeFi platform requires caution. For a comprehensive guide on how to use wLiquify safely and effectively, including tips on verifying URLs, approving transactions, managing RPC endpoints, and securing your wallet, please see our [Security & Best Practices Guide](./best-practices.md).
 
 *(Disclaimer: This documentation is for informational purposes. Cryptocurrency investments and DeFi interactions carry inherent risks. Always do your own research.)* 

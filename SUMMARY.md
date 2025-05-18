@@ -2,6 +2,8 @@
 
 * [Welcome to wLiquify](README.md)
 
+* [Why wLiquify?](why-wliquify.md)
+
 ### **Getting Started**
   * [Overview](getting-started/README.md)
   * [Using the wLiquify dApp](getting-started/dapp-guide.md)
