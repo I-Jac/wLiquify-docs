@@ -2,7 +2,7 @@
 
 * [Welcome to wLiquify](README.md)
 
-* [Why wLiquify?](why-wliquify.md)
+* [Why wLiquify?](top/why-wliquify.md)
 
 ### **Getting Started**
   * [Overview](getting-started/README.md)
