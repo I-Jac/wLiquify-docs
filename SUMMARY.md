@@ -1,8 +1,6 @@
-# Summary
-
-* [Welcome to wLiquify](README.md)
-
-* [Why wLiquify?](top/why-wliquify.md)
+### **Introduction**
+  * [Welcome to wLiquify](README.md)
+  * [Why wLiquify?](top/why-wliquify.md)
 
 ### **Getting Started**
   * [Overview](getting-started/README.md)
@@ -12,27 +10,24 @@
   * [Understanding Key Concepts](getting-started/key-concepts.md)
 
 ### **Protocol Deep Dive**
-  * [Overview](protocol/README.md)
-  * [Ecosystem Overview](protocol/ecosystem-overview.md)
-  * [Core: Liquidity Pools](protocol/liquidity-pools.md)
-  * [Core: Oracles & Data Feeds](protocol/oracles.md)
-  * [Swaps](protocol/Swaps.md)
-  * [Supported Assets](protocol/supported-assets.md)
-  * [wLQI Token](protocol/wlqi-token.md)
+  * [Welcome to the Protocol Deep Dive](protocol/README.md)
+  * [Protocol Architecture](protocol/architecture.md)
+  * [Core: Liquidity Pool Concepts](protocol/liquidity-pools.md)
+  * [Core: Oracle Systems Explained](protocol/oracles.md)
+  * [Core: On-Chain Programs Overview](protocol/on-chain-programs/README.md)
+    * [Liquidity Pool Program](protocol/on-chain-programs/pool-program.md)
+    * [Custom Oracle Program](protocol/on-chain-programs/oracle-program.md)
+  * [Core: Off-Chain Services Overview](protocol/off-chain-services/README.md)
+    * [Pool Maintainer Service](protocol/off-chain-services/pool-maintainer.md)
+    * [Oracle Feeder Service](protocol/off-chain-services/oracle-feeder.md)
+  * [Swaps & Trading](protocol/Swaps.md)
+  * [Supported Assets & Index Composition](protocol/supported-assets.md)
+  * [The wLQI Token](protocol/wlqi-token.md)
   * [Fees & Tokenomics](protocol/fees-tokenomics.md)
-  * [Governance](protocol/Governance.md)
-
-### **Developer Hub**
-  * [Overview](developers/README.md)
-  * [Smart Contract Architecture](developers/architecture.md)
-  * [Liquidity Pool Program Details](developers/on-chain-programs/pool-program.md)
-  * [Oracle Program Details](developers/on-chain-programs/oracle-program.md)
-  * [Oracle Feeder Service](developers/off-chain-services/oracle-feeder.md)
-  * [Pool Maintainer Service](developers/off-chain-services/pool-maintainer.md)
-  * [Integration Guides](developers/integration-guides/README.md)
-  * [Code Examples](developers/code-examples/README.md)
-  * [Addresses & Deployments](developers/addresses.md)
-  * [SDKs & APIs (Future)](developers/sdk-api/README.md)
+  * [Cross-Chain Capabilities](protocol/cross-chain.md)
+  * [Integrations Overview](protocol/integrations/README.md)
+    * [Jupiter Aggregator Integration](protocol/integrations/jupiter.md)
+  * [Key On-Chain Addresses](protocol/addresses.md)
 
 ### **Community & Resources**
   * [Overview](resources/README.md)

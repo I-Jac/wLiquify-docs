@@ -1,69 +1,40 @@
-# Protocol Deep Dive
+# wLiquify Protocol: A Technical Deep Dive
 
-This section delves into the mechanics and architecture of the wLiquify Protocol, a decentralized index protocol built on Solana that enables trading of top cryptocurrencies through cross-chain integration.
+Welcome to the technical heart of the wLiquify Protocol. This section is designed for users, developers, auditors, and enthusiasts who seek a comprehensive understanding of how wLiquify functions at its core. Whether you are exploring integration possibilities, assessing the protocol's mechanics for investment, or are simply curious about its inner workings, these documents aim to provide the necessary depth.
 
-## Core Components
+We delve into the on-chain programs, off-chain services, and the underlying economic and architectural principles that enable wLiquify to offer a decentralized, asset-backed crypto index with dynamic rebalancing and cross-chain capabilities on the Solana blockchain.
 
-### Liquidity Pool
-- Multi-asset pool maintaining market-cap weighted index
-- Dynamic fee system for pool balance
-- Deposit bonus mechanism for cross-chain liquidity
-- wLQI token for pool share representation
+**Who is this for?** This content is tailored for a technically-inclined audience, including those with a background in mathematics, finance, or software engineering. While we avoid raw code snippets in most descriptive sections, a foundational understanding of blockchain concepts and decentralized finance (DeFi) will be beneficial.
 
-### Cross-Chain Integration
-- Wormhole NTT for secure token transfers
-- Manual bridging process (future automation planned)
-- Deposit bonus to offset bridging costs
-- Support for top 30 tokens by market cap
+## Navigating the Protocol Documentation
 
-### Oracle System
-- Pyth price feeds for accurate valuation
-- Market cap and dominance tracking
-- Dynamic fee calculations
-- Pool weight management
+To get a holistic view, we recommend starting with the overall system design and then progressively diving into specific components:
 
-### Swap Integration
-- Jupiter Aggregator for optimal routing
-- Direct pool interactions
-- Cross-chain swap support
-- Efficient price discovery
+1.  **[Protocol Architecture](./architecture.md)**: Begin here for a high-level overview of the wLiquify ecosystem. This document outlines the main on-chain and off-chain components, their interactions, data flows, and the guiding design principles of the protocol.
 
-## Key Features
+2.  **Core Protocol Concepts & Mechanisms**:
+    *   **[The wLQI Token](./wlqi-token.md)**: Understand the properties, role, and mechanics of wLQI, the Liquidity Provider (LP) token that represents a share in the wLiquify pool.
+    *   **[Liquidity Pool Concepts](./liquidity-pools.md)**: Explore the fundamental concepts behind wLiquify's multi-asset liquidity pools. (This complements the detailed program logic found in the On-Chain Programs section).
+    *   **[Oracle Systems Explained](./oracles.md)**: Learn about the dual oracle architecture, combining Pyth Network's live price feeds with wLiquify's custom on-chain oracle for target dominance and specialized data.
+    *   **[Fees & Tokenomics](./fees-tokenomics.md)**: Delve into the protocol's fee structure, including base fees, dynamic rebalancing adjustments, and the economic incentives designed to maintain pool health and target asset allocations.
+    *   **[Supported Assets & Index Composition](./supported-assets.md)**: Information on how assets are selected for the wLiquify index and managed.
+    *   **[Cross-Chain Capabilities](./cross-chain.md)**: Details on how wLiquify leverages technologies like Wormhole for cross-chain asset integration.
+    *   **[Swap Functionality](./Swaps.md)**: Insight into how users can swap assets within the wLiquify ecosystem, including interactions with aggregators.
 
-### Decentralized Index
-- Market-cap weighted token selection
-- Dynamic weight adjustments
-- Oracle-based price feeds
-- Community-driven governance
+3.  **Detailed Component Deep Dives**:
+    *   **[On-Chain Programs](./on-chain-programs/README.md)**: This section provides an in-depth look at the smart contracts deployed on Solana that govern the protocol's core logic. It includes detailed breakdowns of:
+        *   The Liquidity Pool Program.
+        *   The Custom On-Chain Oracle Program.
+    *   **[Off-Chain Services](./off-chain-services/README.md)**: Learn about the essential automated off-chain processes that support the on-chain programs. This includes:
+        *   The Oracle Feeder Service (data sourcing and submission).
+        *   The Pool Maintainer Service (automated upkeep tasks).
 
-### Cross-Chain Trading
-- Access to top tokens on Solana
-- Secure bridging through Wormhole
-- Deposit bonus incentives
-- Future automated routing
+4.  **Integrations & External Interactions**:
+    *   **[Jupiter Integration](./integrations/README.md)**: Details on how wLiquify integrates with Jupiter, Solana's leading swap aggregator.
 
-### Dynamic Fees
-- Base fee: 0.1%
-- Dynamic adjustments based on weight
-- Deposit bonuses for underweight tokens
-- Withdrawal fees for overweight tokens
+5.  **Technical References**:
+    *   **[Key On-Chain Addresses](./addresses.md)**: *(Placeholder)* A reference list of important on-chain program IDs, configuration accounts, and other key addresses within the wLiquify protocol.
 
-### Security Measures
-- Oracle verification
-- Bridge security
-- Emergency procedures
-- User protection mechanisms
+---
 
-## Documentation Structure
-
-- [Ecosystem Overview](./ecosystem-overview.md): System architecture and component interactions
-- [Liquidity Pools](./liquidity-pools.md): Pool mechanics and operations
-- [Cross-Chain Integration](./cross-chain.md): Bridging and token transfer details
-- [Fees & Tokenomics](./fees-tokenomics.md): Fee structure and token mechanics
-- [Supported Assets](./supported-assets.md): Token selection and management
-- [Swaps](./Swaps.md): Trading and routing mechanics
-- [Oracles](./oracles.md): Data feeds and price discovery
-- [wLQI Token](./wlqi-token.md): LP token mechanics and utility
-- [Governance](./Governance.md): Protocol governance and decision-making
-
-*(Note: This documentation will be updated as the protocol evolves and new features are implemented.)* 
+This documentation is actively maintained and will evolve alongside the wLiquify protocol. We encourage you to revisit these pages for the latest insights and technical details. 
