@@ -2,15 +2,16 @@
 
 Welcome to the world of wLiquify! To help you get the most out of our platform, let's explore some fundamental ideas that power our innovative DeFi protocol. Don't worry, we'll keep it clear and simple!
 
-## What's an Automated Market Maker (AMM)?
+## Automated Liquidity & Trading: How wLiquify Works
 
-Think of an AMM as a smart, automated way to trade digital assets without needing a traditional order book (like on a stock exchange). Instead of matching buyers and sellers directly, AMMs use **liquidity pools** – big collections of different tokens – and clever math (algorithms) to set prices and make trades happen.
+wLiquify offers a modern way to trade digital assets and provide liquidity without relying on traditional order books (like those on a stock exchange). Instead, it uses a **multi-asset liquidity pool** – a central collection of various cryptocurrencies – and smart contracts to manage interactions.
 
-**How wLiquify Uses AMM Principles**:
-*   Our protocol features a **multi-asset liquidity pool**, a central hub for various top cryptocurrencies.
-*   The **prices of tokens are determined by their balance and weight** within this pool.
-*   All trading is handled **automatically by smart contracts** (self-executing code on the blockchain).
-*   This means **no old-school market makers or complicated order books** are needed – it's all seamless and decentralized.
+**Key Aspects of wLiquify's Automated System:**
+
+*   **Central Liquidity Pool**: Users deposit assets into a shared pool, making them available for others.
+*   **Smart Contract-Driven**: All deposits, withdrawals, and the calculation of any fees or bonuses are handled automatically by on-chain smart contracts. This means no manual market makers are directly involved in setting these terms for each interaction.
+*   **Oracle-Guided Balancing**: Unlike systems that use a fixed mathematical formula (like `x*y=k`) to determine prices directly from current pool balances, wLiquify's pool is guided by **target dominances** (ideal percentages) for each token. These targets are supplied by our [Custom Oracle System](#the-role-of-oracles-accurate-data-feeds-for-a-dynamic-index).
+*   **Dynamic Fees for Rebalancing**: The protocol uses a [Dynamic Fee System](#smart-pricing-dynamic-fees-pool-balance) that adjusts the cost (or provides a bonus) for depositing or withdrawing tokens based on how their current weight in the pool compares to the oracle-defined target. This system incentivizes users to help keep the pool balanced according to the desired index composition, rather than relying on passive price adjustments from a bonding curve.
 
 ## Bridging the Gap: Cross-Chain Explained
 
