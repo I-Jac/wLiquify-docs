@@ -15,7 +15,7 @@ wLiquify is engineered to tackle two significant hurdles in today's DeFi landsca
     *   The first crypto index genuinely driven by market forces, not central managers.
     *   Features automated rebalancing powered by organic market activity.
     *   Ensures transparent and equitable token weights.
-    *   Crucially, this is an index **truly backed by its underlying assets**. Unlike synthetic indexes based on oracle price feeds, when you invest in wLiquify's index, you're holding a share of the actual assets, ensuring its performance closely mirrors the real top 30 crypto market.
+    *   Crucially, this is an index **truly backed by its underlying assets**. Unlike synthetic indexes based on oracle price feeds, when you invest in wLiquify's index, you're holding a share of the actual assets, ensuring its performance closely mirrors the real top 30 crypto market (aiming for top non-stablecoin, non-CEX, market-cap driven assets).
 
 ## The Challenge: Fragmented Liquidity & Inaccessible Assets
 
@@ -50,7 +50,7 @@ DeFi users often face:
 3.  **Get Rewarded: Incentivized Liquidity for Solana**
     *   Earn attractive deposit bonuses when you bring assets cross-chain.
     *   These bonuses are designed to cover your bridging and initial LP costs.
-    *   Help migrate the top 30 tokens to Solana, enriching the ecosystem.
+    *   Help migrate the top 30 tokens (representing a diverse range of leading, non-stablecoin, non-CEX cryptocurrencies) to Solana, enriching the ecosystem.
     *   Contribute to a more vibrant and liquid Solana DeFi space.
 
 ### Inside the Deposit Bonus Mechanism
@@ -80,7 +80,7 @@ Traditional crypto indexes often suffer from:
     *   Rebalancing happens automatically, guided by market forces.
     *   Operates under transparent, open-source rules.
     *   Designed for future community governance.
-    *   As emphasized, this index is **genuinely backed by the underlying crypto assets**. When you buy into the index, you're buying a stake in the actual tokens, reflecting their true market dominance and aiming for 1:1 performance with the collective top 30.
+    *   As emphasized, this index is **genuinely backed by the underlying crypto assets**. When you buy into the index, you're buying a stake in the actual tokens, reflecting their true market dominance and aiming for 1:1 performance with the collective top 30 (comprising leading, dynamically selected, non-stablecoin, non-CEX cryptocurrencies).
 
 2.  **Smart & Streamlined: Our Efficient Pool Architecture**
     *   A single, unified pool for all index component tokens.

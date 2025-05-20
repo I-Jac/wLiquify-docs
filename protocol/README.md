@@ -29,8 +29,7 @@ To get a holistic view, we recommend starting with the overall system design and
         *   The Oracle Feeder Service (data sourcing and submission).
         *   The Pool Maintainer Service (automated upkeep tasks).
 
-4.  **Integrations & External Interactions**:
-    *   **[Jupiter Integration](./integrations/README.md)**: Details on how wLiquify integrates with Jupiter, Solana's leading swap aggregator.
+4.  **[Integrations Overview](./integrations/README.md)**: Discover how wLiquify interfaces with external systems and protocols. This section covers crucial connections to services like swap aggregators (e.g., Jupiter), price oracle networks (e.g., Pyth Network), and market data APIs (e.g., CoinMarketCap, CoinGecko) that inform index composition and facilitate trading.
 
 5.  **Technical References**:
     *   **[Key On-Chain Addresses](./addresses.md)**: *(Placeholder)* A reference list of important on-chain program IDs, configuration accounts, and other key addresses within the wLiquify protocol.

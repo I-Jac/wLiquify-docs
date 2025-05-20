@@ -116,7 +116,7 @@ To make all this work reliably, and to ensure our index is both **truly asset-ba
 2.  **Custom wLiquify Oracle System: Defining the Index & Driving Rebalancing**
     *   **What it is**: This is our own specialized system, consisting of an off-chain component (the `wLiquify-Oracle` script) and an on-chain smart contract (`oracle_program`).
     *   **Its Responsibilities**:
-        *   **Index Composition**: The off-chain script monitors the market and determines which tokens qualify for our dynamic "Top X" (e.g., Top 30) index based on criteria like market capitalization.
+        *   **Index Composition**: The off-chain script monitors the market and determines which tokens qualify for our dynamic "Top X" (e.g., Top 30, excluding stablecoins, CEX tokens, etc.) index based on criteria like market capitalization.
         *   **Target Dominance**: For each token in the index, it calculates a **target weight or dominance** – what percentage of the total pool value that token *should* ideally represent.
         *   **Mapping & Storage**: It maps these tokens to their Solana wrapped addresses and their respective Pyth `price_feed_id`s. This curated information is then securely submitted to our on-chain `oracle_program`.
     *   **Automated & Transparent**: While the initial curation of the Top X list is managed by the wLiquify team via the automated script, the resulting data (list of tokens, target dominances, Pyth feed IDs) is stored transparently on-chain in our `oracle_program`. Anyone can see what the current targets are.
